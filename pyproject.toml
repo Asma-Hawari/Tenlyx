@@ -1,0 +1,22 @@
+[project]
+name = "weather"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "checkout-sdk>=3.4.0",
+    "deprecated>=1.2.14",
+    "fastapi>=0.117.1",
+    "fastmcp[cli]>=2.12.4",
+    "flake8>=4.0.1",
+    "httpx>=0.28.1",
+    "mcp[cli]>=1.14.1",
+    "pre-commit>=2.17.0",
+    "pylint>=2.12.2",
+    "pytest>=6.1.2",
+    "pytest-mock>=3.6.1",
+    "python-dateutil>=2.8.2",
+    "requests>=2.27.1",
+    "uvicorn>=0.37.0",
+]
